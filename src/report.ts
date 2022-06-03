@@ -16,7 +16,7 @@ export default function generateReport(
     return null
   }
 
-  const { header, intro, body, pullrequest } = input
+  const {header, intro, body, pullrequest} = input
 
   let report = intro
 
