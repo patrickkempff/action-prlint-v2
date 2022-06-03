@@ -7,7 +7,7 @@ inputs:
     required: false
     default: ${{ github.token }}    
   configuration-path:
-    description: 'The path for the pull request lint configurations.'
+    description: 'The path for the pull request lint rules configuration'
     default: '.github/prlint.yml'
     required: false
   comment-table-header:
